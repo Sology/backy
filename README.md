@@ -1,6 +1,6 @@
-# Test
+# Backy
 
-TODO: Write a gem description
+Simple and sweet database backup.
 
 ## Installation
 
