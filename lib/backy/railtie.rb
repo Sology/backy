@@ -5,7 +5,7 @@ module Backy
     railtie_name :backy
 
     rake_tasks do
-      load "tasks/test.rake"
+      load "tasks/backy.rake"
     end
   end
 end
