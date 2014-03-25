@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'test'
+    gem 'backy'
 
 And then execute:
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Simply run
+	
+	$ rake backy:dump
+
+to dump your database into db/backy.sql file.
+
+To retrieve database from the file run
+
+	$ rake backy:load
 
 ## Contributing
 
