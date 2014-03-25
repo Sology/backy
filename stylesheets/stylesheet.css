@@ -88,6 +88,14 @@ header h2 {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
 }
+#logo{
+  background-color: #df084e;
+  background-image: url(../images/logo.jpg);
+  height: 314px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
 
 .inner {
   width: 620px;
@@ -252,7 +260,7 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  color: #df084e;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
