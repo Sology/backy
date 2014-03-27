@@ -29,7 +29,6 @@
       when "Mysql2" 
         mysql2_load
       else 
-      else 
         abort("only PostgreSQL, Mysql2 compatible")
       end
 
