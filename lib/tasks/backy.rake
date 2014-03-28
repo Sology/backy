@@ -1,10 +1,10 @@
   namespace :backy do
 
-  config   = Rails.configuration.database_configuration
-	@host     = config[Rails.env]["host"]
-	@database = config[Rails.env]["database"]
-	@username = config[Rails.env]["username"]
-	@password = config[Rails.env]["password"]
+  @config   = Rails.configuration.database_configuration
+	@host     = @config[Rails.env]["host"]
+	@database = @config[Rails.env]["database"]
+	@username = @config[Rails.env]["username"]
+	@password = @config[Rails.env]["password"]
 
 	desc 'dumps database into db/backy.sql file'
 
